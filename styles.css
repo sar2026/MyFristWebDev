@@ -1,0 +1,85 @@
+body{
+  font-family:;Arial, sans-serif;
+  margin:0;
+  padding:10px;
+  backgroung-color:#948f8e;
+}
+
+li{
+  list-stile:none;
+}
+
+#reviews img{
+  width:100px;
+
+}
+
+nav ul{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+
+}
+
+main{
+  display: flex;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  text-align:center;
+
+}
+main ing{
+  width: 200px;
+}
+
+
+/* h1 {
+  /* This one as tag*/
+  /* color: rgb(4, 4, 77);
+} */ 
+/* tag-> class-> id */
+/* .navigation {
+  /*This on ( . )as class */
+  /* background-color:LightGray;
+} */ 
+/* #featured-book {
+  /*This on (# )as  id */
+  /* width: 400px;
+} */
+/* section h3 {
+  color: red;
+/* } */
+/* li{
+    list style:none; 
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+main{
+    background-color: lightblue;
+} */
+/* nav{
+    background-color:LightGray;  
+    border:5px solid black;
+    /* border-bottom: 5px dashed aqua;*/ /*if I want to have the line ----  */
+    /* border-bottom: 5px solid black;
+    margin-bottom: 10px;
+
+
+} */ 
+/* nav li{
+    padding: 3px;
+} */
+
+/* #featured-book{
+    margin:10px 15px 20px 20px;
+    width: 100px;
+} */
