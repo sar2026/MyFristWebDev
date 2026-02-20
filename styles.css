@@ -1,57 +1,65 @@
-body{
-  font-family:;Arial, sans-serif;
-  margin:0;
-  padding:10px;
-  backgroung-color:#948f8e;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #dacccb;
 }
 
-li{
-  list-stile:none;
+li {
+  list-stile: none;
 }
 
-#reviews img{
-  width:100px;
-
+#reviews img {
+  width: 100px;
 }
 
-nav ul{
+nav ul {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: space-around;
-
 }
 
-main{
+main {
   display: flex;
 }
 
-section{
+section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
   padding: 10px;
-  text-align:center;
-
+  text-align: center;
 }
-main ing{
+main ing {
   width: 200px;
 }
+.book-table td {
+  padding: 10px;
+  border: 1px solid gray;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid black;
+  padding: 10px;
+}
 
 /* h1 {
   /* This one as tag*/
-  /* color: rgb(4, 4, 77);
-} */ 
+/* color: rgb(4, 4, 77);
+} */
 /* tag-> class-> id */
 /* .navigation {
   /*This on ( . )as class */
-  /* background-color:LightGray;
-} */ 
+/* background-color:LightGray;
+} */
 /* #featured-book {
   /*This on (# )as  id */
-  /* width: 400px;
+/* width: 400px;
 } */
 /* section h3 {
   color: red;
@@ -70,11 +78,11 @@ main{
     background-color:LightGray;  
     border:5px solid black;
     /* border-bottom: 5px dashed aqua;*/ /*if I want to have the line ----  */
-    /* border-bottom: 5px solid black;
+/* border-bottom: 5px solid black;
     margin-bottom: 10px;
 
 
-} */ 
+} */
 /* nav li{
     padding: 3px;
 } */
